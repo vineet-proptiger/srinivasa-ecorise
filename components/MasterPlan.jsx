@@ -54,13 +54,13 @@ const MasterPlan = ({ setIsOpen }) => {
           <div className="flex justify-center items-center">
             <button 
               onClick={() => setActiveTab('master')}
-              className={`px-8 py-3 text-[17px] font-medium transition-all border border-[#0E4429] ${activeTab === 'master' ? 'bg-[#0E4429] text-white' : 'bg-transparent text-[#0E4429]'}`}
+              className={`px-8 py-3 text-[17px] font-medium transition-all cursor-pointer border border-[#0E4429] ${activeTab === 'master' ? 'bg-[#0E4429] text-white' : 'bg-transparent text-[#0E4429]'}`}
             >
               Master Plan
             </button>
             <button 
               onClick={() => setActiveTab('floor')}
-              className={`px-8 py-3 text-[17px] font-medium transition-all border border-l-0 border-[#0E4429] ${activeTab === 'floor' ? 'bg-[#0E4429] text-white' : 'bg-transparent text-[#0E4429]'}`}
+              className={`px-8 py-3 text-[17px] font-medium transition-all cursor-pointer border border-l-0 border-[#0E4429] ${activeTab === 'floor' ? 'bg-[#0E4429] text-white' : 'bg-transparent text-[#0E4429]'}`}
             >
               Floor Plan
             </button>

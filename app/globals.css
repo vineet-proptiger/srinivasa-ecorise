@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  button,
+  [type='button'],
+  [type='reset'],
+  [type='submit'] {
+    cursor: pointer !important;
+  }
+}
+
 @import 'aos/dist/aos.css';
 
 /* ═══════════════════════════════════════════════════════════════

@@ -162,7 +162,7 @@ const Overview = ({ setIsOpen }) => {
 
             <button 
               onClick={() => setIsExpanded(!isExpanded)}
-              className="text-[#C59A3F] font-bold mb-10 flex items-center gap-1 hover:text-[#A57C2B] transition-colors"
+              className="text-[#C59A3F] font-bold mb-10 flex items-center gap-1 hover:text-[#A57C2B] transition-colors cursor-pointer"
               style={{ fontSize: '15px' }}
             >
               {isExpanded ? 'Read Less' : 'Read More'}
