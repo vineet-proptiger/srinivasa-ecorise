@@ -453,7 +453,7 @@ const Hero = ({ setIsOpen }) => {
             "5.24-Acre Premium Development At Rajendra Nagar",
             "Project With Grand Central Courtyard",
             "Prime Hyderabad Growth Corridor",
-            "Exclusive 3 & 4 BHK Residences"
+            "The towers are built using Monolithic RCC and Shear Wall Technology"
           ].map((text, i) => (
           <div key={i} className="hero-bullet-item" style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--color-brand, #C59A3F)" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" style={{ flexShrink: 0, backgroundColor: '#fff', borderRadius: '50%', padding: '2px' }}>
