@@ -383,8 +383,8 @@ const Hero = ({ setIsOpen }) => {
               font-weight: 800 !important;
             }
             .hero-cta-row .hero-btn-one {
-              color: #1A2024 !important;
-              border-color: #1A2024 !important;
+              color: #0E4429 !important;
+              border-color: #0E4429 !important;
               background: transparent !important;
             }
             .hero-rera {

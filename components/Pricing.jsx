@@ -1,7 +1,7 @@
 import { Check, BedDouble } from "lucide-react";
 
 const F_SANS = "var(--font-sans), Open Sans, sans-serif";
-const THEME_BLUE = "#1A2024";
+const THEME_BLUE = "#0E4429";
 const GOLD = "#C59A3F";
 
 const units = [
@@ -113,7 +113,7 @@ const Pricing = ({ setIsOpen }) => {
               {/* Price Section */}
               <div className="text-center mb-6 h-[70px] flex flex-col justify-end">
                 <p className="text-[10px] text-gray-500 font-bold tracking-widest uppercase mb-1" style={{ fontFamily: F_SANS }}>Starting At</p>
-                <p className={`text-[28px] font-bold ${unit.isPopular ? 'text-[#C59A3F]' : 'text-[#1A2024]'}`} style={{ fontFamily: F_SANS }}>
+                <p className={`text-[28px] font-bold ${unit.isPopular ? 'text-[#C59A3F]' : 'text-[#0E4429]'}`} style={{ fontFamily: F_SANS }}>
                   {unit.price}
                 </p>
               </div>
@@ -136,7 +136,7 @@ const Pricing = ({ setIsOpen }) => {
                 className={`w-full max-w-[220px] py-3.5 rounded-md text-[13px] font-bold tracking-wider uppercase transition-all duration-300 shadow-md hover:shadow-lg border-2 cursor-pointer
                   ${unit.isPopular 
                     ? 'bg-[#C59A3F] border-[#C59A3F] text-white hover:bg-[#A57C2B]' 
-                    : 'bg-[#1A2024] border-[#1A2024] text-white hover:bg-white hover:text-[#1A2024]'}`}
+                    : 'bg-[#0E4429] border-[#0E4429] text-white hover:bg-[#082E1B] hover:border-[#082E1B]'}`}
               >
                 {unit.btnText}
               </button>

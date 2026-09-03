@@ -89,12 +89,12 @@ const Overview = ({ setIsOpen }) => {
         top: 12px;
         width: 6px;
         height: 6px;
-        background-color: #1A2024;
+        background-color: #0E4429;
         border-radius: 50%;
       }
       .theme_btn1 {
         padding: 15px 32px;
-        background: #1A2024;
+        background: #0E4429;
         color: #FFF;
         line-height: 1;
         position: relative;
@@ -109,7 +109,7 @@ const Overview = ({ setIsOpen }) => {
       }
       .theme_btn1:hover {
         background: #C59A3F;
-        color: #1A2024;
+        color: #ffffff;
       }
       .image_caption_wrap img {
         width: 100%;

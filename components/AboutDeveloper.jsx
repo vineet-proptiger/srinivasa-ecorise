@@ -241,7 +241,7 @@ const AboutDeveloper = ({ setIsOpen }) => (
 
           {/* Form Header */}
           <div style={{
-            background: '#1A2024',
+            background: '#0E4429',
             padding: '18px 24px', position: 'relative', overflow: 'hidden'
           }}>
             <div style={{

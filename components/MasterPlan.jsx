@@ -78,7 +78,7 @@ const MasterPlan = ({ setIsOpen }) => {
                   className="w-full h-auto mx-auto filter blur-[6px] group-hover:blur-[3px] transition-all duration-300" 
                 />
                 <div className="absolute inset-0 flex items-center justify-center bg-white/20">
-                  <span className="bg-[#1A2024] text-white px-7 py-4 text-[14px] sm:text-[15px] leading-snug font-semibold uppercase tracking-wider text-center shadow-md">
+                  <span className="bg-[#0E4429] text-white px-7 py-4 text-[14px] sm:text-[15px] leading-snug font-semibold uppercase tracking-wider text-center shadow-md">
                     Download<br/>Master Plan
                   </span>
                 </div>
@@ -97,13 +97,13 @@ const MasterPlan = ({ setIsOpen }) => {
                       className="w-full h-full object-contain filter blur-[6px] group-hover:blur-[3px] transition-all duration-300" 
                     />
                     <div className="absolute inset-0 flex items-center justify-center bg-white/20">
-                      <span className="bg-[#1A2024] text-white px-5 py-3 text-[13px] leading-snug font-semibold uppercase tracking-wider text-center">
+                      <span className="bg-[#0E4429] text-white px-5 py-3 text-[13px] leading-snug font-semibold uppercase tracking-wider text-center">
                         Download<br/>Floor Plans
                       </span>
                     </div>
                   </a>
                   <div className="p-6 text-center border-t border-gray-100 bg-white">
-                    <h4 className="text-[22px] text-[#1A2024] font-semibold mb-4">{plan.label}</h4>
+                    <h4 className="text-[22px] text-[#0E4429] font-semibold mb-4">{plan.label}</h4>
                     <p className="text-[15px] text-gray-600"><span className="font-semibold text-gray-800">Super Built-up Area </span><br/><span className="text-[17px] font-bold text-[#0E4429] inline-block mt-1">{plan.details.superBuiltUp}</span></p>
                   </div>
                 </div>
