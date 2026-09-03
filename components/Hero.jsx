@@ -491,8 +491,8 @@ const Hero = ({ setIsOpen }) => {
             lineHeight: '1.2', 
             verticalAlign: 'middle',
             padding: '4px 18px',
-            background: 'rgba(247, 168, 0, 0.15)',
-            border: '1px solid rgba(247, 168, 0, 0.5)',
+            background: 'rgba(197, 154, 63, 0.18)',
+            border: '1px solid rgba(197, 154, 63, 0.55)',
             borderRadius: '30px'
           }}>
             ₹ 2.2 Cr*

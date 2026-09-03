@@ -133,7 +133,7 @@ const Pricing = ({ setIsOpen }) => {
               {/* Button */}
               <button
                 onClick={() => setIsOpen(true)}
-                className={`w-full max-w-[220px] py-3.5 rounded-md text-[13px] font-bold tracking-wider uppercase transition-all duration-300 shadow-md hover:shadow-lg border-2
+                className={`w-full max-w-[220px] py-3.5 rounded-md text-[13px] font-bold tracking-wider uppercase transition-all duration-300 shadow-md hover:shadow-lg border-2 cursor-pointer
                   ${unit.isPopular 
                     ? 'bg-[#C59A3F] border-[#C59A3F] text-white hover:bg-[#A57C2B]' 
                     : 'bg-[#1A2024] border-[#1A2024] text-white hover:bg-white hover:text-[#1A2024]'}`}

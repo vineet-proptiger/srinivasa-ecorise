@@ -475,18 +475,48 @@
     filter: drop-shadow(-6px 0 20px rgba(197, 154, 63, 0.35));
   }
 
+  /* ══ GLOBAL BUTTON & INTERACTIVE CURSOR POINTER ══ */
+  button,
+  [role="button"],
+  input[type="button"],
+  input[type="submit"],
+  input[type="reset"],
+  .btn,
+  .btn-gold,
+  .btn-gold-outline,
+  .btn-primary,
+  .btn-brand,
+  .theme_btn1 {
+    cursor: pointer !important;
+  }
+
+  button:hover,
+  [role="button"]:hover,
+  input[type="button"]:hover,
+  input[type="submit"]:hover,
+  .btn:hover,
+  .btn-gold:hover,
+  .btn-gold-outline:hover,
+  .btn-primary:hover,
+  .btn-brand:hover,
+  .theme_btn1:hover {
+    cursor: pointer !important;
+  }
+
   /* ══ GLOBAL BUTTON OVERRIDE (Gold & Green Luxury) ══ */
   .btn-gold, .btn-gold-outline, .btn-primary, .btn-brand {
     background: #C59A3F !important;
     color: #ffffff !important;
     border-color: transparent !important;
     font-weight: 800 !important;
+    cursor: pointer !important;
   }
 
   .btn-gold:hover, .btn-gold-outline:hover, .btn-primary:hover, .btn-brand:hover {
     background: #0E4429 !important;
     color: #ffffff !important;
     border-color: #0E4429 !important;
+    cursor: pointer !important;
   }
 
   /* ══ SECTION TITLE ══ */

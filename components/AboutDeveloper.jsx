@@ -178,7 +178,7 @@ const payload = new FormData()
       </label>
 
       <button type="submit" disabled={loading}
-        className="w-full py-4 text-sm font-bold tracking-widest uppercase transition-all duration-300 rounded-none flex items-center justify-center gap-2 bg-[#1A2024] text-white border-2 border-[#1A2024] hover:bg-white hover:text-[#1A2024]"
+        className="w-full py-4 text-sm font-bold tracking-widest uppercase transition-all duration-300 rounded-none flex items-center justify-center gap-2 bg-[#C59A3F] text-white border-2 border-[#C59A3F] hover:bg-[#0E4429] hover:border-[#0E4429]"
         style={{ marginTop: '4px' }}>
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
           <line x1="22" y1="2" x2="11" y2="13" /><polygon points="22 2 15 22 11 13 2 9 22 2" />

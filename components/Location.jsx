@@ -71,7 +71,7 @@ const Location = () => {
                 alignItems: 'center',
                 gap: '10px'
               }}>
-                <MapPin size={22} className="text-[#005a50]" />
+                <MapPin size={22} className="text-[#0E4429]" />
                 <span>SEAMLESS CONNECTIVITY</span>
               </h3>
 
@@ -93,7 +93,7 @@ const Location = () => {
                         width: '6px',
                         height: '6px',
                         borderRadius: '2px',
-                        background: '#005a50',
+                        background: '#0E4429',
                         display: 'inline-block',
                         flexShrink: 0,
                       }} />

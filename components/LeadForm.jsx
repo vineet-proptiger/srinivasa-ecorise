@@ -164,8 +164,8 @@ const payload = new FormData()
       <button type="submit" disabled={loading}
         className="mt-5 font-bold uppercase tracking-wider transition-transform hover:scale-105 disabled:opacity-70 disabled:hover:scale-100"
         style={{ 
-          background: '#DFB76C', 
-          color: '#111', 
+          background: '#C59A3F',
+          color: '#ffffff', 
           padding: '12px 24px', 
           width: '180px', 
           margin: '20px auto 0',
