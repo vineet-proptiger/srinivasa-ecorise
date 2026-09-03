@@ -136,7 +136,8 @@ export default function Home() {
         {/* Enquire Now - Middle */}
         <button 
           onClick={() => setIsOpen(true)} 
-          className="flex-1 bg-[#006860] text-white py-2.5 flex flex-col items-center justify-center gap-1 hover:bg-[#C59A3F] transition-all"
+          style={{ cursor: 'pointer' }}
+          className="flex-1 bg-[#C59A3F] text-white py-2.5 flex flex-col items-center justify-center gap-1 hover:brightness-105 transition-all"
         >
           <MessageSquare size={20} className="text-white animate-gentle-pulse" />
           <span className="text-[12px] font-bold tracking-wider uppercase">Enquire Now</span>

@@ -438,7 +438,7 @@ const Hero = ({ setIsOpen }) => {
 
         {/* Main Heading */}
         <h1 className="hero-title">
-         SRINIVASA ECORISE
+         SONTHALIA ECORISE BY SREENIVASA
         </h1>
 
         {/* Subtitle */}
