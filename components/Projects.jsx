@@ -195,8 +195,8 @@ const Projects = ({ setIsOpen }) => {
           {/* Image Side (Right on Desktop) */}
           <div className="w-full lg:w-1/2 project-img-container">
             <Image
-              src="/projects/iris-tower.jpg"
-              alt="Srinivasa Ecorise - Commercial & Taj Hotel"
+              src="/images/gallery/g4.webp"
+              alt="Srinivasa Ecorise - 4 Iconic Towers"
               width={700}
               height={550}
               className="project-img"

@@ -55,7 +55,7 @@ export const metadata = {
     siteName: 'Srinivasa Ecorise',
     images: [
       {
-        url: '/projects/iris-tower.jpg',
+        url: '/images/hero/banner.webp',
         width: 1200,
         height: 630,
         alt: 'Srinivasa Ecorise Rajendra Nagar Hyderabad',
@@ -68,7 +68,7 @@ export const metadata = {
     card: 'summary_large_image',
     title: 'Srinivasa Ecorise | Luxury 3, 4 BHK Homes in Rajendra Nagar',
     description: "A thoughtfully planned 5.24-acre landmark development in Rajendra Nagar, Hyderabad by Sreenivasa Constructions.",
-    images: ['/projects/iris-tower.jpg'],
+    images: ['/images/hero/banner.webp'],
   },
   icons: {
     icon: '/images/favicon/fav.webp',
@@ -91,8 +91,8 @@ export default function RootLayout({ children }) {
               "@type": "RealEstateAgent",
               "name": "Srinivasa Ecorise Rajendra Nagar",
               "url": "https://sreenivasaecorise.in/",
-              "logo": "https://sreenivasaecorise.in/projects/iris-tower.jpg",
-              "image": "https://sreenivasaecorise.in/projects/iris-tower.jpg",
+              "logo": "https://sreenivasaecorise.in/images/logo/Logo.webp",
+              "image": "https://sreenivasaecorise.in/images/hero/banner.webp",
               "description": "Srinivasa Ecorise, Hyderabad's premier luxury integrated development in Rajendra Nagar offering 3, 4 BHK luxury residences.",
               "address": {
                 "@type": "PostalAddress",
