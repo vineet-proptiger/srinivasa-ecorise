@@ -148,7 +148,7 @@ const Overview = ({ setIsOpen }) => {
             
             <div style={isExpanded ? {} : { display: '-webkit-box', WebkitLineClamp: '7', WebkitBoxOrient: 'vertical', overflow: 'hidden', marginBottom: '16px' }}>
               <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" style={{ fontSize: '16px', fontFamily: '"Poppins", sans-serif', color: '#333', textAlign: 'justify', marginBottom: '8px', lineHeight: '1.8' }}>
-                Ecorise by Sreenivasa Constructions introduces exclusive 3 & 4 BHK residences crafted around open landscapes, abundant natural light, and everyday comfort. With thoughtfully planned homes ranging from 2,250 - 4,695 sq. ft., the community offers expansive living spaces set within a serene environment that blends privacy, greenery, and modern design, making it one of the most desirable choices for those exploring flats in Rajendranagar, including spacious 3 and 4 BHK homes.
+                Ecorise by Sreenivasa Constructions introduces exclusive 3 & 4 BHK residences crafted around open landscapes, abundant natural light, and everyday comfort. With thoughtfully planned homes ranging from 2790 - 4,695 sq. ft., the community offers expansive living spaces set within a serene environment that blends privacy, greenery, and modern design, making it one of the most desirable choices for those exploring flats in Rajendranagar, including spacious 3 and 4 BHK homes.
               </p>
               
               <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="120" style={{ fontSize: '16px', fontFamily: '"Poppins", sans-serif', color: '#333', textAlign: 'justify', marginBottom: '8px', lineHeight: '1.8' }}>

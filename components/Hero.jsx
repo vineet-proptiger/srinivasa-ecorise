@@ -449,11 +449,11 @@ const Hero = ({ setIsOpen }) => {
         {/* Bullet Points */}
         <div className="hero-bullets" style={{ marginBottom: '24px', display: 'flex', flexDirection: 'column', gap: '8px' }}>
           {[
-            "Srinivasa Ecorise Homes in Rajendra Nagar",
-            "5.24-Acre Premium Development At Rajendra Nagar",
-            "Project With Grand Central Courtyard",
-            "Prime Hyderabad Growth Corridor",
-            "The towers are built using Monolithic RCC and Shear Wall Technology"
+            "New Launch 3 & 4 BHK Apartments",
+            "Prime Development Spanning 5.24 Acres",
+            "Located just 5 minutes from the ORR exit",
+            "57,000 Sq.Ft. Grand Clubhouse",
+            "Pre-Launch Pricing From ₹7,099/Sq.Ft."
           ].map((text, i) => (
           <div key={i} className="hero-bullet-item" style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--color-brand, #C59A3F)" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" style={{ flexShrink: 0, backgroundColor: '#fff', borderRadius: '50%', padding: '2px' }}>
@@ -495,7 +495,7 @@ const Hero = ({ setIsOpen }) => {
             border: '1px solid rgba(197, 154, 63, 0.55)',
             borderRadius: '30px'
           }}>
-            ₹ 2.2 Cr*
+            ₹ 2.09 Cr*
           </span>
         </p>
 

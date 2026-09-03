@@ -7,7 +7,7 @@ const plans = [
     label: '3 BHK Residence', 
     img: masterplanImages.bhk2,
     details: {
-        superBuiltUp: '2250 Sq. Ft.'
+        superBuiltUp: '2790 Sq. Ft.'
     }
   },
   /*
@@ -25,7 +25,7 @@ const plans = [
     label: '4 BHK Residence', 
     img: masterplanImages.bhk45,
     details: {
-        superBuiltUp: '4695 Sq. Ft.'
+        superBuiltUp: '4675-4695 Sq. Ft.'
     }
   },
 ]

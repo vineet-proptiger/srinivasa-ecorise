@@ -8,8 +8,8 @@ const units = [
   {
     type: "3 BHK",
     subtitle: "RESIDENCES",
-    size: "2250 Sq. Ft.",
-    price: "₹ 2.2 Cr*",
+    size: "2790 Sq. Ft.",
+    price: "₹ 2.09 Cr*",
     btnText: "GET DETAILS",
     features: [
       "Unlock Pricing & Floor Plans",
@@ -21,7 +21,7 @@ const units = [
   {
     type: "4 BHK",
     subtitle: "RESIDENCES",
-    size: "4695 Sq. Ft.",
+    size: "4675-4695 Sq. Ft.",
     price: "Ask For Price",
     btnText: "GET DETAILS",
     features: [

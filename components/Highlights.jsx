@@ -119,33 +119,35 @@ const Highlights = () => {
           <div style={{ position: 'absolute', top: -1, left: -1, width: '24px', height: '24px', borderTop: '1.5px solid #C59A3F', borderLeft: '1.5px solid #C59A3F', borderTopLeftRadius: '20px' }}></div>
           <div style={{ position: 'absolute', top: -1, right: -1, width: '24px', height: '24px', borderTop: '1.5px solid #C59A3F', borderRight: '1.5px solid #C59A3F', borderTopRightRadius: '20px' }}></div>
           <div style={{ position: 'absolute', bottom: -1, left: -1, width: '24px', height: '24px', borderBottom: '1.5px solid #C59A3F', borderLeft: '1.5px solid #C59A3F', borderBottomLeftRadius: '20px' }}></div>
-          <div style={{ position: 'absolute', bottom: -1, right: -1, width: '24px', height: '24px', borderBottom: '1.5px solid #C59A3F', borderRight: '1.5px solid #C59A3F', borderBottomRightRadius: '20px' }}></div>          {/* Item 1: 3 & 4 BHK Residences */}
+          <div style={{ position: 'absolute', bottom: -1, right: -1, width: '24px', height: '24px', borderBottom: '1.5px solid #C59A3F', borderRight: '1.5px solid #C59A3F', borderBottomRightRadius: '20px' }}></div>          {/* Item 1: Monolithic RCC & Shear Wall Technology */}
           <div className="p-10 border-b lg:border-b border-white/20 lg:border-r flex flex-col items-center text-center">
             <div className="w-16 h-16 rounded-full flex items-center justify-center mb-6" style={{ background: '#C59A3F' }}>
               <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
-                <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                <rect x="4" y="2" width="16" height="20" rx="2"></rect>
+                <line x1="9" y1="6" x2="9" y2="6.01"></line>
+                <line x1="15" y1="6" x2="15" y2="6.01"></line>
+                <line x1="9" y1="10" x2="9" y2="10.01"></line>
+                <line x1="15" y1="10" x2="15" y2="10.01"></line>
+                <line x1="9" y1="14" x2="9" y2="14.01"></line>
+                <line x1="15" y1="14" x2="15" y2="14.01"></line>
+                <line x1="9" y1="18" x2="15" y2="18"></line>
               </svg>
             </div>
-            <h3 className="text-[#C59A3F] font-bold text-[15px] uppercase tracking-wider mb-3">EXCLUSIVE 3 & 4 BHK HOMES</h3>
-            <p className="text-white/80 text-[14px] leading-relaxed">Thoughtfully planned 3 & 4 BHK residences ranging from 2,250 – 4,695 sq. ft. with expansive decks</p>
+            <h3 className="text-[#C59A3F] font-bold text-[15px] uppercase tracking-wider mb-3">MONOLITHIC RCC & SHEAR WALL</h3>
+            <p className="text-white/80 text-[14px] leading-relaxed">Towers designed using advanced Monolithic RCC &amp; Shear Wall Technology for superior structural durability &amp; safety</p>
           </div>
 
-          {/* Item 2: 4 Towers & 30 Storeys */}
+          {/* Item 2: 33,000 Sq Ft Rooftop Amenities */}
           <div className="p-10 border-b lg:border-b border-white/20 lg:border-r flex flex-col items-center text-center">
             <div className="w-16 h-16 rounded-full flex items-center justify-center mb-6" style={{ background: '#C59A3F' }}>
               <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                <rect x="3" y="3" width="8" height="18" rx="1"></rect>
-                <rect x="13" y="7" width="8" height="14" rx="1"></rect>
-                <line x1="6" y1="7" x2="8" y2="7"></line>
-                <line x1="6" y1="11" x2="8" y2="11"></line>
-                <line x1="6" y1="15" x2="8" y2="15"></line>
-                <line x1="16" y1="11" x2="18" y2="11"></line>
-                <line x1="16" y1="15" x2="18" y2="15"></line>
+                <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+                <path d="M2 17l10 5 10-5"></path>
+                <path d="M2 12l10 5 10-5"></path>
               </svg>
             </div>
-            <h3 className="text-[#C59A3F] font-bold text-[15px] uppercase tracking-wider mb-3">4 TOWERS & 30 STOREYS</h3>
-            <p className="text-white/80 text-[14px] leading-relaxed">Low-density luxury development comprising 4 iconic G+30 towers with only 516 exclusive residences</p>
+            <h3 className="text-[#C59A3F] font-bold text-[15px] uppercase tracking-wider mb-3">33,000 SQ. FT. ROOFTOP AMENITIES</h3>
+            <p className="text-white/80 text-[14px] leading-relaxed">Exclusive 33,000 sq. ft. rooftop lifestyle deck featuring open-air recreational spaces with skyline views</p>
           </div>
 
           {/* Item 3: 5.24-Acre Green Community */}
@@ -157,10 +159,10 @@ const Highlights = () => {
               </svg>
             </div>
             <h3 className="text-[#C59A3F] font-bold text-[15px] uppercase tracking-wider mb-3">5.24-ACRE GREEN COMMUNITY</h3>
-            <p className="text-white/80 text-[14px] leading-relaxed">Spread across a sprawling 5.24-acre estate, offering abundant open spaces, central courtyard & lush greenery</p>
+            <p className="text-white/80 text-[14px] leading-relaxed">Spread across a sprawling 5.24-acre estate, offering abundant open spaces, central courtyard &amp; lush greenery</p>
           </div>
 
-          {/* Item 4: Prime Location */}
+          {/* Item 4: 5 Minutes from ORR Exit */}
           <div className="p-10 border-b md:border-b-0 lg:border-r border-white/20 flex flex-col items-center text-center">
             <div className="w-16 h-16 rounded-full flex items-center justify-center mb-6" style={{ background: '#C59A3F' }}>
               <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -168,31 +170,30 @@ const Highlights = () => {
                 <circle cx="12" cy="10" r="3"></circle>
               </svg>
             </div>
-            <h3 className="text-[#C59A3F] font-bold text-[15px] uppercase tracking-wider mb-3">PRIME LOCATION</h3>
-            <p className="text-white/80 text-[14px] leading-relaxed">Prime Rajendra Nagar location with 10-minute access to RGIA Airport, PVNR Expressway, and ORR Exit 16</p>
+            <h3 className="text-[#C59A3F] font-bold text-[15px] uppercase tracking-wider mb-3">5 MINUTES FROM ORR EXIT</h3>
+            <p className="text-white/80 text-[14px] leading-relaxed">Prime Rajendra Nagar location strategically positioned just 5 minutes from the Nehru ORR exit for effortless travel</p>
           </div>
 
-          {/* Item 5: Grand Clubhouse & Amenities */}
+          {/* Item 5: G+7 57,000 Sq Ft Clubhouse */}
           <div className="p-10 border-b md:border-b-0 lg:border-r border-white/20 flex flex-col items-center text-center">
             <div className="w-16 h-16 rounded-full flex items-center justify-center mb-6" style={{ background: '#C59A3F' }}>
               <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                 <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
               </svg>
             </div>
-            <h3 className="text-[#C59A3F] font-bold text-[15px] uppercase tracking-wider mb-3">GRAND CLUBHOUSE & AMENITIES</h3>
-            <p className="text-white/80 text-[14px] leading-relaxed">State-of-the-art multi-level clubhouse featuring an infinity pool, temple, banquet lounge, and kids play area</p>
+            <h3 className="text-[#C59A3F] font-bold text-[15px] uppercase tracking-wider mb-3">G+7 57,000 SQ. FT. CLUBHOUSE</h3>
+            <p className="text-white/80 text-[14px] leading-relaxed">Grand 7-level (G+7) signature clubhouse spanning 57,000 sq. ft. designed for world-class leisure &amp; wellness</p>
           </div>
 
-          {/* Item 6: IT Hub Connectivity */}
+          {/* Item 6: Premium Lifestyle & Leisure */}
           <div className="p-10 flex flex-col items-center text-center">
             <div className="w-16 h-16 rounded-full flex items-center justify-center mb-6" style={{ background: '#C59A3F' }}>
               <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                <circle cx="12" cy="12" r="10"></circle>
-                <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon>
+                <path d="M6 5v14M18 5v14M2 9h4v6H2zM18 9h4v6h-4zM6 12h12"></path>
               </svg>
             </div>
-            <h3 className="text-[#C59A3F] font-bold text-[15px] uppercase tracking-wider mb-3">SEAMLESS IT HUB CONNECTIVITY</h3>
-            <p className="text-white/80 text-[14px] leading-relaxed">Quick 30-minute commute to Hyderabad’s major commercial hubs including Financial District, Gachibowli & HITEC City</p>
+            <h3 className="text-[#C59A3F] font-bold text-[15px] uppercase tracking-wider mb-3">PREMIUM LEISURE & WORK SPACES</h3>
+            <p className="text-white/80 text-[14px] leading-relaxed">Equipped with modern Gym, Air Hockey, dedicated Co-Working Spaces, indoor recreation &amp; sports zones</p>
           </div>
 
         </div>

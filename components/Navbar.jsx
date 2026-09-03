@@ -158,10 +158,10 @@ const Navbar = ({ setIsOpen }) => {
           opacity: 1 !important;
           flex: 0 0 auto !important;
           flex-shrink: 0 !important;
-          min-width: 200px !important;
+          min-width: unset !important;
           background-color: #fff !important;
-          padding: 2px 18px !important;
-          border-radius: 12px !important;
+          padding: 2px 4px !important;
+          border-radius: 10px !important;
           box-shadow: 0 4px 18px rgba(0, 0, 0, 0.1) !important;
           margin: 0 !important;
           transition: box-shadow 0.3s ease !important;
@@ -170,6 +170,17 @@ const Navbar = ({ setIsOpen }) => {
           justify-content: center !important;
           transform: translateZ(0) !important;
           z-index: 20;
+        }
+
+        .header_style2 .header_navigation2 li.navbar-logo a,
+        .header_style2.sticky .header_navigation2 li.navbar-logo a,
+        .header_style2.scrolled-up-expanded .header_navigation2 li.navbar-logo a {
+          padding: 0 !important;
+          margin: 0 !important;
+          display: flex !important;
+          align-items: center !important;
+          justify-content: center !important;
+          line-height: 0 !important;
         }
 
         .header_style2 .header_navigation2 li a,
@@ -220,6 +231,8 @@ const Navbar = ({ setIsOpen }) => {
           height: 52px !important;
           min-height: 52px !important;
           width: auto !important;
+          max-width: 195px !important;
+          border-radius: 6px !important;
           flex-shrink: 0 !important;
           display: block;
           object-fit: contain;
@@ -248,14 +261,14 @@ const Navbar = ({ setIsOpen }) => {
           .header_style2 .header_navigation2 li.navbar-logo,
           .header_style2.sticky .header_navigation2 li.navbar-logo,
           .header_style2.scrolled-up-expanded .header_navigation2 li.navbar-logo {
-            min-width: 180px !important;
-            padding: 2px 14px !important;
+            min-width: unset !important;
+            padding: 2px 4px !important;
           }
           .nav-logo,
           .header_style2.sticky .nav-logo,
           .header_style2.scrolled-up-expanded .nav-logo {
-            height: 48px !important;
-            min-height: 48px !important;
+            height: 50px !important;
+            min-height: 50px !important;
           }
         }
 
@@ -281,8 +294,8 @@ const Navbar = ({ setIsOpen }) => {
           .header_style2 .header_navigation2 li.navbar-logo,
           .header_style2.sticky .header_navigation2 li.navbar-logo,
           .header_style2.scrolled-up-expanded .header_navigation2 li.navbar-logo {
-            min-width: 220px !important;
-            padding: 3px 22px !important;
+            min-width: unset !important;
+            padding: 2px 5px !important;
           }
           .nav-logo,
           .header_style2.sticky .nav-logo,
@@ -314,8 +327,8 @@ const Navbar = ({ setIsOpen }) => {
           .header_style2 .header_navigation2 li.navbar-logo,
           .header_style2.sticky .header_navigation2 li.navbar-logo,
           .header_style2.scrolled-up-expanded .header_navigation2 li.navbar-logo {
-            min-width: 250px !important;
-            padding: 4px 26px !important;
+            min-width: unset !important;
+            padding: 3px 6px !important;
           }
           .nav-logo,
           .header_style2.sticky .nav-logo,
