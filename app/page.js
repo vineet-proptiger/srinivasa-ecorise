@@ -68,7 +68,7 @@ export default function Home() {
 
       {/* Floating Vertical Enquire Tab — Desktop only */}
       <div 
-        className="hidden lg:flex fixed z-50 cursor-pointer text-[#1A2024] uppercase text-[14px] leading-[20px] font-bold tracking-[0.4px] whitespace-nowrap bg-[#F7A800] items-center justify-center gap-[6px] hover:bg-[#1A2024] hover:text-white transition-colors duration-300"
+        className="hidden lg:flex fixed z-50 cursor-pointer text-white uppercase text-[14px] leading-[20px] font-bold tracking-[0.4px] whitespace-nowrap bg-[#C59A3F] items-center justify-center gap-[6px] hover:bg-[#0E4429] hover:text-white transition-colors duration-300"
         style={{
           top: '50%',
           right: '10px',
@@ -112,17 +112,17 @@ export default function Home() {
           animation: enquireFloat 2.2s infinite ease-in-out;
         }
       @keyframes gentlePulse {
-          0%, 100% { transform: scale(1); }
-          50% { transform: scale(1.15); }
-        }
-        .animate-gentle-pulse {
-          animation: gentlePulse 2s infinite ease-in-out;
-        }
+        0%, 100% { transform: scale(1); }
+        50% { transform: scale(1.15); }
+      }
+      .animate-gentle-pulse {
+        animation: gentlePulse 2s infinite ease-in-out;
+      }
       `}</style>
       <div className="fixed bottom-0 left-0 right-0 z-[100] flex shadow-[0_-4px_15px_rgba(0,0,0,0.1)] md:hidden">
         {/* WhatsApp - Left */}
         <a 
-          href="https://wa.me/919718344024?text=Hi%2C%20I%20am%20interested%20in%20Srinivasa%20Ecorise%20Rajendra%20Nagar" 
+          href="https://wa.me/919718344024?text=Hi%2C%20I%20am%20interested%20in%20Srinivasa%20Ecorise" 
           target="_blank" 
           rel="noopener noreferrer" 
           className="flex-1 bg-[#25D366] text-white py-2.5 flex flex-col items-center justify-center gap-1 hover:bg-[#20bd5a] transition-colors"
@@ -136,16 +136,16 @@ export default function Home() {
         {/* Enquire Now - Middle */}
         <button 
           onClick={() => setIsOpen(true)} 
-          className="flex-1 bg-[#F7A800] text-[#111827] py-2.5 flex flex-col items-center justify-center gap-1 hover:brightness-105 transition-all"
+          className="flex-1 bg-[#C59A3F] text-white py-2.5 flex flex-col items-center justify-center gap-1 hover:brightness-105 transition-all"
         >
-          <MessageSquare size={20} className="text-[#111827] animate-gentle-pulse" />
+          <MessageSquare size={20} className="text-white animate-gentle-pulse" />
           <span className="text-[12px] font-bold tracking-wider uppercase">Enquire Now</span>
         </button>
 
         {/* Call Now - Right */}
         <a 
           href="tel:+919718344024" 
-          className="flex-1 bg-[#0075B3] text-white py-2.5 flex flex-col items-center justify-center gap-1 hover:bg-[#005C8F] transition-colors"
+          className="flex-1 bg-[#0E4429] text-white py-2.5 flex flex-col items-center justify-center gap-1 hover:bg-[#09321E] transition-colors"
         >
           <Phone size={20} className="text-white animate-phone-ring" />
           <span className="text-[12px] font-medium tracking-wide">Call Now</span>

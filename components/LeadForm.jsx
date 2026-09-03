@@ -138,7 +138,7 @@ const payload = new FormData()
   )
 
   const dynamicInputClass = isTransparent 
-    ? "w-full mb-3 px-4 py-2 bg-transparent text-white placeholder-gray-400 outline-none transition-colors border rounded-md focus:border-[#FFC34D]"
+    ? "w-full mb-3 px-4 py-2 bg-transparent text-white placeholder-gray-400 outline-none transition-colors border rounded-md focus:border-[#DFB76C]"
     : "w-full mb-3 px-4 py-2 bg-white text-gray-900 placeholder-gray-400 outline-none transition-colors border rounded-md shadow-sm focus:border-[var(--color-gold)]";
 
   const dynamicInputStyle = isTransparent ? { fontFamily: F_SANS, borderColor: 'rgba(201, 166, 90, 0.4)' } : { fontFamily: F_SANS, borderColor: '#e5e7eb' };
@@ -164,7 +164,7 @@ const payload = new FormData()
       <button type="submit" disabled={loading}
         className="mt-5 font-bold uppercase tracking-wider transition-transform hover:scale-105 disabled:opacity-70 disabled:hover:scale-100"
         style={{ 
-          background: '#FFC34D', 
+          background: '#DFB76C', 
           color: '#111', 
           padding: '12px 24px', 
           width: '180px', 

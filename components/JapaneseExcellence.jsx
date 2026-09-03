@@ -13,7 +13,7 @@ const ArcIcon = () => (
   </svg>
 )
 
-const CurvedCorners = ({ bg = '#EAE5DC', color = '#FFC34D' }) => {
+const CurvedCorners = ({ bg = '#EAE5DC', color = '#DFB76C' }) => {
   const corners = [
     { top: '-1px', left: '-1px', borderRight: `1px solid ${color}`, borderBottom: `1px solid ${color}`, borderBottomRightRadius: '18px' },
     { top: '-1px', right: '-1px', borderLeft: `1px solid ${color}`, borderBottom: `1px solid ${color}`, borderBottomLeftRadius: '18px' },
@@ -62,12 +62,12 @@ const JapaneseExcellence = () => {
         {/* Grid Container */}
         <div data-aos="fade-up" data-aos-delay="100" style={{
           position: 'relative',
-          border: '1px solid #FFC34D',
+          border: '1px solid #DFB76C',
           margin: '0 auto',
         }}>
-          <CurvedCorners color="#FFC34D" bg="#EAE5DC" />
+          <CurvedCorners color="#DFB76C" bg="#EAE5DC" />
           
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-[1px] bg-[#FFC34D]">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-[1px] bg-[#DFB76C]">
             {excellenceItems.map((item, idx) => (
               <div key={idx} className="flex flex-col justify-center" style={{
                 background: '#EAE5DC',

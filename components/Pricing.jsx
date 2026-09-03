@@ -2,7 +2,7 @@ import { Check, BedDouble } from "lucide-react";
 
 const F_SANS = "var(--font-sans), Open Sans, sans-serif";
 const THEME_BLUE = "#1A2024";
-const GOLD = "#F7A800";
+const GOLD = "#C59A3F";
 
 const units = [
   {
@@ -64,9 +64,9 @@ const Pricing = ({ setIsOpen }) => {
           
           {/* Decorative Line */}
           <div className="flex items-center justify-center mt-4 mb-3">
-            <div className="w-16 h-[1px] bg-[#0075B3]"></div>
-            <div className="w-2 h-2 rounded-full bg-[#0075B3] mx-3"></div>
-            <div className="w-16 h-[1px] bg-[#0075B3]"></div>
+            <div className="w-16 h-[1px] bg-[#0E4429]"></div>
+            <div className="w-2 h-2 rounded-full bg-[#0E4429] mx-3"></div>
+            <div className="w-16 h-[1px] bg-[#0E4429]"></div>
           </div>
         </div>
 
@@ -91,7 +91,7 @@ const Pricing = ({ setIsOpen }) => {
                 <HexShape color={unit.isPopular ? GOLD : THEME_BLUE} />
                 
                 {unit.isPopular && (
-                  <div className="absolute -top-3.5 left-1/2 -translate-x-1/2 bg-[#F7A800] text-white text-[10px] font-bold px-4 py-1.5 rounded-full whitespace-nowrap z-20 tracking-wider shadow-sm">
+                  <div className="absolute -top-3.5 left-1/2 -translate-x-1/2 bg-[#C59A3F] text-white text-[10px] font-bold px-4 py-1.5 rounded-full whitespace-nowrap z-20 tracking-wider shadow-sm">
                     MOST PREFERRED
                   </div>
                 )}
@@ -113,7 +113,7 @@ const Pricing = ({ setIsOpen }) => {
               {/* Price Section */}
               <div className="text-center mb-6 h-[70px] flex flex-col justify-end">
                 <p className="text-[10px] text-gray-500 font-bold tracking-widest uppercase mb-1" style={{ fontFamily: F_SANS }}>Starting At</p>
-                <p className={`text-[28px] font-bold ${unit.isPopular ? 'text-[#F7A800]' : 'text-[#1A2024]'}`} style={{ fontFamily: F_SANS }}>
+                <p className={`text-[28px] font-bold ${unit.isPopular ? 'text-[#C59A3F]' : 'text-[#1A2024]'}`} style={{ fontFamily: F_SANS }}>
                   {unit.price}
                 </p>
               </div>
@@ -135,7 +135,7 @@ const Pricing = ({ setIsOpen }) => {
                 onClick={() => setIsOpen(true)}
                 className={`w-full max-w-[220px] py-3.5 rounded-md text-[13px] font-bold tracking-wider uppercase transition-all duration-300 shadow-md hover:shadow-lg border-2
                   ${unit.isPopular 
-                    ? 'bg-[#F7A800] border-[#F7A800] text-white hover:bg-[#d89100]' 
+                    ? 'bg-[#C59A3F] border-[#C59A3F] text-white hover:bg-[#A57C2B]' 
                     : 'bg-[#1A2024] border-[#1A2024] text-white hover:bg-white hover:text-[#1A2024]'}`}
               >
                 {unit.btnText}

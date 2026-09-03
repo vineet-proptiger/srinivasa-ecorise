@@ -196,7 +196,7 @@ const AboutDeveloper = ({ setIsOpen }) => (
       {/* Heading */}
       {/* <div className="text-center mb-12 md:mb-[50px]" data-aos="fade-down" data-aos-duration="1000">
         <h2
-          className="text-[22px] sm:text-[28px] md:text-[36px] font-semibold leading-tight uppercase tracking-wider text-[#F7A800] drop-shadow-md"
+          className="text-[22px] sm:text-[28px] md:text-[36px] font-semibold leading-tight uppercase tracking-wider text-[#C59A3F] drop-shadow-md"
           style={{ fontFamily: "var(--font-jost), Montserrat, sans-serif" }}
         >
           About the Developer
@@ -218,9 +218,9 @@ const AboutDeveloper = ({ setIsOpen }) => (
           </h2>
           {/* Decorative Line */}
           <div className="flex items-center justify-start mt-2 mb-6">
-            <div className="w-16 h-[1px] bg-[#0075B3]"></div>
-            <div className="w-2 h-2 rounded-full bg-[#0075B3] mx-3"></div>
-            <div className="w-16 h-[1px] bg-[#0075B3]"></div>
+            <div className="w-16 h-[1px] bg-[#0E4429]"></div>
+            <div className="w-2 h-2 rounded-full bg-[#0E4429] mx-3"></div>
+            <div className="w-16 h-[1px] bg-[#0E4429]"></div>
           </div>
           <p className="text-[19px] text-white font-medium leading-relaxed max-w-md drop-shadow-lg" style={{ fontFamily: F_SANS, textShadow: '0 2px 10px rgba(0,0,0,0.5)' }}>
             Let’s connect and bring your ideas to life. Reach out today for expert guidance, quick responses, and solutions tailored perfectly to your needs.

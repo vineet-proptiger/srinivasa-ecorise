@@ -108,7 +108,7 @@ const Overview = ({ setIsOpen }) => {
         letter-spacing: 0.5px;
       }
       .theme_btn1:hover {
-        background: #F7A800;
+        background: #C59A3F;
         color: #1A2024;
       }
       .image_caption_wrap img {
@@ -140,9 +140,9 @@ const Overview = ({ setIsOpen }) => {
             <h2 className="text-[22px] sm:text-[28px] md:text-[36px] font-semibold leading-tight uppercase tracking-wider text-gray-900" data-aos="fade-up" data-aos-duration="1000" style={{ fontFamily: "var(--font-jost), Montserrat, sans-serif", marginBottom: '6px' }}>Srinivasa Ecorise</h2>
             {/* Decorative Line */}
             <div className="flex items-center justify-start mt-1 mb-3" data-aos="fade-up" data-aos-duration="1000">
-              <div className="w-16 h-[1px] bg-[#0075B3]"></div>
-              <div className="w-2 h-2 rounded-full bg-[#0075B3] mx-3"></div>
-              <div className="w-16 h-[1px] bg-[#0075B3]"></div>
+              <div className="w-16 h-[1px] bg-[#0E4429]"></div>
+              <div className="w-2 h-2 rounded-full bg-[#0E4429] mx-3"></div>
+              <div className="w-16 h-[1px] bg-[#0E4429]"></div>
             </div>
             <h3 className="text-[16px] sm:text-[18px] md:text-[22px] font-medium tracking-wide text-gray-600" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="50" style={{ fontFamily: "var(--font-jost), Montserrat, sans-serif", marginBottom: '24px' }}>Premium Residences in Rajendra Nagar, Hyderabad</h3>
             
@@ -162,7 +162,7 @@ const Overview = ({ setIsOpen }) => {
 
             <button 
               onClick={() => setIsExpanded(!isExpanded)}
-              className="text-[#F7A800] font-bold mb-10 flex items-center gap-1 hover:text-[#d89100] transition-colors"
+              className="text-[#C59A3F] font-bold mb-10 flex items-center gap-1 hover:text-[#A57C2B] transition-colors"
               style={{ fontSize: '15px' }}
             >
               {isExpanded ? 'Read Less' : 'Read More'}
@@ -173,26 +173,26 @@ const Overview = ({ setIsOpen }) => {
             
             {/* Info Boxes */}
             <div 
-              className="grid grid-cols-2 md:grid-cols-2 border border-[#F7A800] rounded-2xl overflow-hidden bg-[#faf8f5]" 
+              className="grid grid-cols-2 md:grid-cols-2 border border-[#C59A3F] rounded-2xl overflow-hidden bg-[#faf8f5]" 
               data-aos="fade-up" 
               data-aos-duration="1000" 
               data-aos-delay="200"
             >
-              <div className="p-4 border-b border-r border-[#F7A800] flex flex-col md:flex-row items-start md:items-center justify-between md:justify-start md:gap-4">
+              <div className="p-4 border-b border-r border-[#C59A3F] flex flex-col md:flex-row items-start md:items-center justify-between md:justify-start md:gap-4">
                 <span style={{ color: '#1A2024', fontSize: '14px', fontWeight: '800', letterSpacing: '0.5px', textTransform: 'uppercase' }}>Towers:</span>
-                <span style={{ color: '#F7A800', fontSize: '16px', fontWeight: '700' }}>4</span>
+                <span style={{ color: '#C59A3F', fontSize: '16px', fontWeight: '700' }}>4</span>
               </div>
-              <div className="p-4 border-b border-[#F7A800] flex flex-col md:flex-row items-start md:items-center justify-between md:justify-start md:gap-4">
+              <div className="p-4 border-b border-[#C59A3F] flex flex-col md:flex-row items-start md:items-center justify-between md:justify-start md:gap-4">
                 <span style={{ color: '#1A2024', fontSize: '14px', fontWeight: '800', letterSpacing: '0.5px', textTransform: 'uppercase' }}>Floors:</span>
-                <span style={{ color: '#F7A800', fontSize: '16px', fontWeight: '700' }}>30</span>
+                <span style={{ color: '#C59A3F', fontSize: '16px', fontWeight: '700' }}>30</span>
               </div>
-              <div className="p-4 border-r border-[#F7A800] flex flex-col md:flex-row items-start md:items-center justify-between md:justify-start md:gap-4">
+              <div className="p-4 border-r border-[#C59A3F] flex flex-col md:flex-row items-start md:items-center justify-between md:justify-start md:gap-4">
                 <span style={{ color: '#1A2024', fontSize: '14px', fontWeight: '800', letterSpacing: '0.5px', textTransform: 'uppercase' }}>Units:</span>
-                <span style={{ color: '#F7A800', fontSize: '16px', fontWeight: '700' }}>516</span>
+                <span style={{ color: '#C59A3F', fontSize: '16px', fontWeight: '700' }}>516</span>
               </div>
               <div className="p-4 flex flex-col md:flex-row items-start md:items-center justify-between md:justify-start md:gap-4">
                 <span style={{ color: '#1A2024', fontSize: '14px', fontWeight: '800', letterSpacing: '0.5px', textTransform: 'uppercase' }}>Project Area:</span>
-                <span style={{ color: '#F7A800', fontSize: '16px', fontWeight: '700' }}>5.24 acres (approx)</span>
+                <span style={{ color: '#C59A3F', fontSize: '16px', fontWeight: '700' }}>5.24 acres (approx)</span>
               </div>
             </div>
 
@@ -201,7 +201,7 @@ const Overview = ({ setIsOpen }) => {
 
         {/* Right Side: Image */}
         <div className="w-full lg:w-5/12 mt-10 lg:mt-0" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
-          <div className="image_caption_wrap relative overflow-hidden rounded-xl shadow-lg border border-[#F7A800]/20 bg-white">
+          <div className="image_caption_wrap relative overflow-hidden rounded-xl shadow-lg border border-[#C59A3F]/20 bg-white">
             <Image
               src={overviewImage}
               alt="Srinivasa Ecorise - Tower Elevation"

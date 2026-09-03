@@ -121,7 +121,7 @@ const Gallery = ({ setIsOpen }) => {
                 fontWeight: '700',
                 letterSpacing: '0.15em',
                 color: '#684C1B',
-                border: '1px solid #FFC34D',
+                border: '1px solid #DFB76C',
                 padding: '14px 36px',
                 background: 'transparent',
                 cursor: 'pointer',

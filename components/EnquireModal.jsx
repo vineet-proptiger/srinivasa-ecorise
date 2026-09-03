@@ -43,7 +43,7 @@ const EnquireModal = ({ isOpen, setIsOpen }) => {
         className="relative w-full max-w-[92vw] sm:w-[440px] h-auto rounded-3xl shadow-[0_0_40px_rgba(0,0,0,0.5)] flex flex-col justify-center items-center p-8 mx-auto"
         style={{
           background: 'radial-gradient(circle at center, #0a1033 0%, #000215 100%)',
-          border: '1px solid #FFC34D',
+          border: '1px solid #DFB76C',
           animation: 'slideInRight 0.45s cubic-bezier(0.22,1,0.36,1) forwards',
         }}
         onClick={(e) => e.stopPropagation()}
@@ -57,12 +57,12 @@ const EnquireModal = ({ isOpen, setIsOpen }) => {
                 width: '28px', 
                 height: '28px', 
                 borderRadius: '50%', 
-                background: '#FFC34D' 
+                background: '#DFB76C' 
               }}
             >
               <X size={16} strokeWidth={2.5} />
             </button>
-            <h3 className="text-xl sm:text-2xl font-bold tracking-wider mb-2 uppercase" style={{ fontFamily: F_JOST, color: '#FFC34D' }}>
+            <h3 className="text-xl sm:text-2xl font-bold tracking-wider mb-2 uppercase" style={{ fontFamily: F_JOST, color: '#DFB76C' }}>
               Enquire Now
             </h3>
             <p className="text-white text-[13px]" style={{ fontFamily: F_SANS }}>
@@ -81,10 +81,10 @@ const EnquireModal = ({ isOpen, setIsOpen }) => {
                 <span className="text-[15px] mr-1.5">💳</span>Priority Allotment EOI Amount
               </div>
               <div className="flex flex-col items-center gap-1.5 w-full">
-                <span className="text-[#F7A800] font-bold text-[16px] tracking-wider" style={{ fontFamily: F_JOST }}>
+                <span className="text-[#C59A3F] font-bold text-[16px] tracking-wider" style={{ fontFamily: F_JOST }}>
                   <span className="text-white/90 font-normal text-[12px] tracking-normal mr-1">2 & 3 BHK:</span> <span style={{ animation: 'popupBlink 1.4s infinite' }}>₹3 Lakhs*</span>
                 </span>
-                <span className="text-[#F7A800] font-bold text-[16px] tracking-wider" style={{ fontFamily: F_JOST }}>
+                <span className="text-[#C59A3F] font-bold text-[16px] tracking-wider" style={{ fontFamily: F_JOST }}>
                   <span className="text-white/90 font-normal text-[12px] tracking-normal mr-1">Jodi Residences:</span> <span style={{ animation: 'popupBlink 1.4s infinite' }}>₹5 Lakhs*</span>
                 </span>
               </div>

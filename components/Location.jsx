@@ -30,16 +30,16 @@ const Location = () => {
         {/* Section Header */}
         <div style={{ marginBottom: '50px', textAlign: 'center' }} data-aos="fade-down" data-aos-duration="1000">
            <h2
-             className="text-[22px] sm:text-[28px] md:text-[36px] font-semibold leading-tight uppercase tracking-wider text-[#F7A800]"
+             className="text-[22px] sm:text-[28px] md:text-[36px] font-semibold leading-tight uppercase tracking-wider text-[#C59A3F]"
              style={{ fontFamily: "var(--font-jost), Montserrat, sans-serif", marginBottom: '12px' }}
            >
              LOCATION ADVANTAGES
            </h2>
            {/* Decorative Line */}
            <div className="flex items-center justify-center mt-3 mb-2">
-             <div className="w-16 h-[1px] bg-[#0075B3]"></div>
-             <div className="w-2 h-2 rounded-full bg-[#0075B3] mx-3"></div>
-             <div className="w-16 h-[1px] bg-[#0075B3]"></div>
+             <div className="w-16 h-[1px] bg-[#0E4429]"></div>
+             <div className="w-2 h-2 rounded-full bg-[#0E4429] mx-3"></div>
+             <div className="w-16 h-[1px] bg-[#0E4429]"></div>
            </div>
         </div>
 
@@ -51,7 +51,7 @@ const Location = () => {
               padding: '16px 26px',
               borderRadius: '16px',
               background: '#F8F9FA',
-              border: '1px solid #F7A800',
+              border: '1px solid #C59A3F',
               boxShadow: '0 12px 32px rgba(0, 2, 66, 0.12)',
               display: 'flex',
               flexDirection: 'column',
@@ -66,7 +66,7 @@ const Location = () => {
                 textTransform: 'uppercase',
                 marginBottom: '10px',
                 paddingBottom: '10px',
-                borderBottom: '2px solid #F7A800',
+                borderBottom: '2px solid #C59A3F',
                 display: 'flex',
                 alignItems: 'center',
                 gap: '10px'
@@ -125,7 +125,7 @@ const Location = () => {
           <div className="w-full lg:flex-1 lg:order-1 flex flex-col justify-center" data-aos="fade-right" data-aos-duration="1000">
             <div style={{
               overflow: 'hidden',
-              border: '1px solid #FFC34D',
+              border: '1px solid #DFB76C',
               borderRadius: '16px',
               width: '100%',
               height: '100%',
@@ -159,7 +159,7 @@ const Location = () => {
               `}</style>
               <div style={{
                 position: 'absolute', bottom: '16px', left: '16px', zIndex: 10,
-                background: 'var(--color-gold, #F7A800)', opacity: 0.95, backdropFilter: 'blur(6px)',
+                background: 'var(--color-gold, #C59A3F)', opacity: 0.95, backdropFilter: 'blur(6px)',
                 borderRadius: '8px', padding: '6px 14px',
                 display: 'flex', alignItems: 'center', gap: '6px',
                 pointerEvents: 'none',

@@ -338,7 +338,7 @@ const Hero = ({ setIsOpen }) => {
               display: none !important;
             }
             .hero-title {
-              color: #F7A800 !important;
+              color: #C59A3F !important;
               text-shadow: none !important;
             }
             .hero-subtitle, .hero-price-line, .hero-price-amt, .hero-bullet-text, .hero-price-digits {
@@ -357,7 +357,7 @@ const Hero = ({ setIsOpen }) => {
             }
             .hero-bullet-item svg {
               background-color: rgba(0,0,0,0.05) !important;
-              stroke: #F7A800 !important;
+              stroke: #C59A3F !important;
             }
             .hero-cta-row {
               flex-direction: column !important;
@@ -377,7 +377,7 @@ const Hero = ({ setIsOpen }) => {
             }
             .hero-cta-row > a.btn-brand,
             .hero-cta-row > button.btn-brand {
-              background: #F7A800 !important;
+              background: #C59A3F !important;
               color: #111827 !important;
               border-color: transparent !important;
               font-weight: 800 !important;
@@ -456,7 +456,7 @@ const Hero = ({ setIsOpen }) => {
             "Exclusive 3 & 4 BHK Residences"
           ].map((text, i) => (
           <div key={i} className="hero-bullet-item" style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--color-brand, #F7A800)" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" style={{ flexShrink: 0, backgroundColor: '#fff', borderRadius: '50%', padding: '2px' }}>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--color-brand, #C59A3F)" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" style={{ flexShrink: 0, backgroundColor: '#fff', borderRadius: '50%', padding: '2px' }}>
               <polyline points="20 6 9 17 4 12" />
             </svg>
             <span className="hero-bullet-text" style={{ color: '#fff', fontFamily: 'var(--font-sans), Open Sans, sans-serif', fontSize: 'clamp(13px, 1.5vw, 18px)', fontWeight: '500', letterSpacing: '0.02em', textShadow: '0 1px 4px rgba(0,0,0,0.5)' }}>
@@ -472,7 +472,7 @@ const Hero = ({ setIsOpen }) => {
           <div className="text-white font-medium text-[13px] sm:text-[15px] tracking-wide flex flex-wrap items-center gap-x-1" style={{ fontFamily: 'var(--font-jost), Montserrat, sans-serif' }}>
             <span>Priority Allotment EOI Amount:</span>
             <span style={{ animation: 'heroPriceBlink 1.4s infinite' }} className="flex items-center gap-1 mt-0.5 sm:mt-0">
-              <strong className="text-[#F7A800] whitespace-nowrap">₹3 Lakhs</strong>
+              <strong className="text-[#C59A3F] whitespace-nowrap">₹3 Lakhs</strong>
               <span className="text-white/90 font-normal text-[11px] sm:text-[13px] whitespace-nowrap">(3 & 4 BHK)</span>
             </span>
           </div>
