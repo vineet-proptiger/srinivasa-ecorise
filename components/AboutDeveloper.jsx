@@ -178,8 +178,8 @@ const payload = new FormData()
       </label>
 
       <button type="submit" disabled={loading}
-        className="w-full py-4 text-sm font-bold tracking-widest uppercase transition-all duration-300 rounded-none flex items-center justify-center gap-2 bg-[#C59A3F] text-white border-2 border-[#C59A3F] hover:bg-[#0E4429] hover:border-[#0E4429]"
-        style={{ marginTop: '4px' }}>
+        className="w-full py-4 text-sm font-bold tracking-widest uppercase transition-all duration-300 rounded-none flex items-center justify-center gap-2 bg-[#006860] text-white border-2 border-[#006860] hover:bg-[#C59A3F] hover:border-[#C59A3F]"
+        style={{ marginTop: '4px', cursor: 'pointer' }}>
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
           <line x1="22" y1="2" x2="11" y2="13" /><polygon points="22 2 15 22 11 13 2 9 22 2" />
         </svg>
@@ -218,9 +218,9 @@ const AboutDeveloper = ({ setIsOpen }) => (
           </h2>
           {/* Decorative Line */}
           <div className="flex items-center justify-start mt-2 mb-6">
-            <div className="w-16 h-[1px] bg-[#0E4429]"></div>
-            <div className="w-2 h-2 rounded-full bg-[#0E4429] mx-3"></div>
-            <div className="w-16 h-[1px] bg-[#0E4429]"></div>
+            <div className="w-16 h-[1px] bg-[#006860]"></div>
+            <div className="w-2 h-2 rounded-full bg-[#006860] mx-3"></div>
+            <div className="w-16 h-[1px] bg-[#006860]"></div>
           </div>
           <p className="text-[19px] text-white font-medium leading-relaxed max-w-md drop-shadow-lg" style={{ fontFamily: F_SANS, textShadow: '0 2px 10px rgba(0,0,0,0.5)' }}>
             Let’s connect and bring your ideas to life. Reach out today for expert guidance, quick responses, and solutions tailored perfectly to your needs.
@@ -241,7 +241,7 @@ const AboutDeveloper = ({ setIsOpen }) => (
 
           {/* Form Header */}
           <div style={{
-            background: '#0E4429',
+            background: '#006860',
             padding: '18px 24px', position: 'relative', overflow: 'hidden'
           }}>
             <div style={{

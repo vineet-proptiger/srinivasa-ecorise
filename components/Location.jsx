@@ -37,9 +37,9 @@ const Location = () => {
            </h2>
            {/* Decorative Line */}
            <div className="flex items-center justify-center mt-3 mb-2">
-             <div className="w-16 h-[1px] bg-[#0E4429]"></div>
-             <div className="w-2 h-2 rounded-full bg-[#0E4429] mx-3"></div>
-             <div className="w-16 h-[1px] bg-[#0E4429]"></div>
+             <div className="w-16 h-[1px] bg-[#006860]"></div>
+             <div className="w-2 h-2 rounded-full bg-[#006860] mx-3"></div>
+             <div className="w-16 h-[1px] bg-[#006860]"></div>
            </div>
         </div>
 
@@ -71,7 +71,7 @@ const Location = () => {
                 alignItems: 'center',
                 gap: '10px'
               }}>
-                <MapPin size={22} className="text-[#0E4429]" />
+                <MapPin size={22} className="text-[#006860]" />
                 <span>SEAMLESS CONNECTIVITY</span>
               </h3>
 
@@ -93,7 +93,7 @@ const Location = () => {
                         width: '6px',
                         height: '6px',
                         borderRadius: '2px',
-                        background: '#0E4429',
+                        background: '#006860',
                         display: 'inline-block',
                         flexShrink: 0,
                       }} />
@@ -130,7 +130,7 @@ const Location = () => {
               width: '100%',
               height: '100%',
               position: 'relative',
-              background: '#0E4429',
+              background: '#006860',
               boxShadow: '0 12px 32px rgba(14, 68, 41, 0.18)',
               display: 'flex',
               alignItems: 'center',

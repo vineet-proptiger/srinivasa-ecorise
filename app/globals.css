@@ -1,3 +1,5 @@
+@import 'aos/dist/aos.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -11,8 +13,6 @@
   }
 }
 
-@import 'aos/dist/aos.css';
-
 /* ═══════════════════════════════════════════════════════════════
    THEME VARIABLES — Srinivasa Ecorise Rajendra Nagar Theme
    ═══════════════════════════════════════════════════════════════ */
@@ -24,13 +24,13 @@
   --color-gold-bg: rgba(197, 154, 63, 0.1);     
 
   /* ── Brand Primary (Emerald / Forest Green) ── */
-  --color-brand: #0E4429;
-  --color-brand-hover: #09321E;
+  --color-brand: #006860;
+  --color-brand-hover: #004B45;
   --color-brand-light: rgba(14, 68, 41, 0.08);
 
   /* ── Text (nav links, headings) ── */
-  --color-nav-text: #0E4429;
-  --color-heading-brown: #0E4429;
+  --color-nav-text: #006860;
+  --color-heading-brown: #006860;
 
   /* ── Section Backgrounds ── */
   --color-cream-bg: #F8FAF8;
@@ -512,19 +512,20 @@
     cursor: pointer !important;
   }
 
-  /* ══ GLOBAL BUTTON OVERRIDE (Gold & Green Luxury) ══ */
+  /* ══ GLOBAL BUTTON OVERRIDE (Reversed: Logo Green Default, Gold Hover) ══ */
   .btn-gold, .btn-gold-outline, .btn-primary, .btn-brand {
-    background: #C59A3F !important;
+    background: #006860 !important;
     color: #ffffff !important;
-    border-color: transparent !important;
+    border-color: #006860 !important;
     font-weight: 800 !important;
     cursor: pointer !important;
+    transition: all 0.3s ease !important;
   }
 
   .btn-gold:hover, .btn-gold-outline:hover, .btn-primary:hover, .btn-brand:hover {
-    background: #0E4429 !important;
+    background: #C59A3F !important;
     color: #ffffff !important;
-    border-color: #0E4429 !important;
+    border-color: #C59A3F !important;
     cursor: pointer !important;
   }
 

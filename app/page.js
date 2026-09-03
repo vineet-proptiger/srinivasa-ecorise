@@ -68,7 +68,7 @@ export default function Home() {
 
       {/* Floating Vertical Enquire Tab — Desktop only */}
       <div 
-        className="hidden lg:flex fixed z-50 cursor-pointer text-white uppercase text-[14px] leading-[20px] font-bold tracking-[0.4px] whitespace-nowrap bg-[#C59A3F] items-center justify-center gap-[6px] hover:bg-[#0E4429] hover:text-white transition-colors duration-300"
+        className="hidden lg:flex fixed z-50 cursor-pointer text-white uppercase text-[14px] leading-[20px] font-bold tracking-[0.4px] whitespace-nowrap bg-[#006860] items-center justify-center gap-[6px] hover:bg-[#C59A3F] hover:text-white transition-colors duration-300"
         style={{
           top: '50%',
           right: '10px',
@@ -136,7 +136,7 @@ export default function Home() {
         {/* Enquire Now - Middle */}
         <button 
           onClick={() => setIsOpen(true)} 
-          className="flex-1 bg-[#C59A3F] text-white py-2.5 flex flex-col items-center justify-center gap-1 hover:brightness-105 transition-all"
+          className="flex-1 bg-[#006860] text-white py-2.5 flex flex-col items-center justify-center gap-1 hover:bg-[#C59A3F] transition-all"
         >
           <MessageSquare size={20} className="text-white animate-gentle-pulse" />
           <span className="text-[12px] font-bold tracking-wider uppercase">Enquire Now</span>
@@ -145,7 +145,7 @@ export default function Home() {
         {/* Call Now - Right */}
         <a 
           href="tel:+919718344024" 
-          className="flex-1 bg-[#0E4429] text-white py-2.5 flex flex-col items-center justify-center gap-1 hover:bg-[#09321E] transition-colors"
+          className="flex-1 bg-[#006860] text-white py-2.5 flex flex-col items-center justify-center gap-1 hover:bg-[#004B45] transition-colors"
         >
           <Phone size={20} className="text-white animate-phone-ring" />
           <span className="text-[12px] font-medium tracking-wide">Call Now</span>

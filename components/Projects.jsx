@@ -151,9 +151,9 @@ const Projects = ({ setIsOpen }) => {
           <h2 className="text-[22px] sm:text-[28px] md:text-[36px] font-semibold leading-tight uppercase tracking-wider text-gray-900 text-center" style={{ fontFamily: "var(--font-jost), Montserrat, sans-serif", marginBottom: '10px' }}>PROJECTS</h2>
           {/* Decorative Line */}
           <div className="flex items-center justify-center mt-2 mb-4">
-            <div className="w-16 h-[1px] bg-[#0E4429]"></div>
-            <div className="w-2 h-2 rounded-full bg-[#0E4429] mx-3"></div>
-            <div className="w-16 h-[1px] bg-[#0E4429]"></div>
+            <div className="w-16 h-[1px] bg-[#006860]"></div>
+            <div className="w-2 h-2 rounded-full bg-[#006860] mx-3"></div>
+            <div className="w-16 h-[1px] bg-[#006860]"></div>
           </div>
           {/* <p className="subheading">
             Designed for Elevated Living <span className="text-[#C59A3F] mx-2 font-bold">•</span> Where nature meets modern comfort

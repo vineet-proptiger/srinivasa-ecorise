@@ -89,12 +89,12 @@ const Overview = ({ setIsOpen }) => {
         top: 12px;
         width: 6px;
         height: 6px;
-        background-color: #0E4429;
+        background-color: #006860;
         border-radius: 50%;
       }
       .theme_btn1 {
         padding: 15px 32px;
-        background: #0E4429;
+        background: #006860;
         color: #FFF;
         line-height: 1;
         position: relative;
@@ -140,9 +140,9 @@ const Overview = ({ setIsOpen }) => {
             <h2 className="text-[22px] sm:text-[28px] md:text-[36px] font-semibold leading-tight uppercase tracking-wider text-gray-900" data-aos="fade-up" data-aos-duration="1000" style={{ fontFamily: "var(--font-jost), Montserrat, sans-serif", marginBottom: '6px' }}>Srinivasa Ecorise</h2>
             {/* Decorative Line */}
             <div className="flex items-center justify-start mt-1 mb-3" data-aos="fade-up" data-aos-duration="1000">
-              <div className="w-16 h-[1px] bg-[#0E4429]"></div>
-              <div className="w-2 h-2 rounded-full bg-[#0E4429] mx-3"></div>
-              <div className="w-16 h-[1px] bg-[#0E4429]"></div>
+              <div className="w-16 h-[1px] bg-[#006860]"></div>
+              <div className="w-2 h-2 rounded-full bg-[#006860] mx-3"></div>
+              <div className="w-16 h-[1px] bg-[#006860]"></div>
             </div>
             <h3 className="text-[16px] sm:text-[18px] md:text-[22px] font-medium tracking-wide text-gray-600" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="50" style={{ fontFamily: "var(--font-jost), Montserrat, sans-serif", marginBottom: '24px' }}>Premium Residences in Rajendra Nagar, Hyderabad</h3>
             
@@ -163,7 +163,7 @@ const Overview = ({ setIsOpen }) => {
             <button 
               onClick={() => setIsExpanded(!isExpanded)}
               className="text-[#C59A3F] font-bold mb-10 flex items-center gap-1 hover:text-[#A57C2B] transition-colors cursor-pointer"
-              style={{ fontSize: '15px' }}
+              style={{ fontSize: '15px', cursor: 'pointer' }}
             >
               {isExpanded ? 'Read Less' : 'Read More'}
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className={`transform transition-transform ${isExpanded ? 'rotate-180' : ''}`}>

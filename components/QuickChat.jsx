@@ -35,7 +35,7 @@ export default function QuickChat() {
         >
         <div className="bg-[#e7e1d5] rounded-2xl overflow-hidden shadow-lg border border-black/5">
           {/* Header */}
-          <div className="bg-[#0E4429] text-white px-3 py-2.5 sm:px-4 sm:py-3 flex items-center">
+          <div className="bg-[#006860] text-white px-3 py-2.5 sm:px-4 sm:py-3 flex items-center">
             <div className="w-10 h-10 rounded-full bg-[#C59A3F] flex items-center justify-center text-white font-semibold text-lg shrink-0">
               T
             </div>

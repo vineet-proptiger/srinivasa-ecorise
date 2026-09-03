@@ -1,7 +1,7 @@
 import { Check, BedDouble } from "lucide-react";
 
 const F_SANS = "var(--font-sans), Open Sans, sans-serif";
-const THEME_BLUE = "#0E4429";
+const THEME_BLUE = "#006860";
 const GOLD = "#C59A3F";
 
 const units = [
@@ -64,9 +64,9 @@ const Pricing = ({ setIsOpen }) => {
           
           {/* Decorative Line */}
           <div className="flex items-center justify-center mt-4 mb-3">
-            <div className="w-16 h-[1px] bg-[#0E4429]"></div>
-            <div className="w-2 h-2 rounded-full bg-[#0E4429] mx-3"></div>
-            <div className="w-16 h-[1px] bg-[#0E4429]"></div>
+            <div className="w-16 h-[1px] bg-[#006860]"></div>
+            <div className="w-2 h-2 rounded-full bg-[#006860] mx-3"></div>
+            <div className="w-16 h-[1px] bg-[#006860]"></div>
           </div>
         </div>
 
@@ -113,7 +113,7 @@ const Pricing = ({ setIsOpen }) => {
               {/* Price Section */}
               <div className="text-center mb-6 h-[70px] flex flex-col justify-end">
                 <p className="text-[10px] text-gray-500 font-bold tracking-widest uppercase mb-1" style={{ fontFamily: F_SANS }}>Starting At</p>
-                <p className={`text-[28px] font-bold ${unit.isPopular ? 'text-[#C59A3F]' : 'text-[#0E4429]'}`} style={{ fontFamily: F_SANS }}>
+                <p className={`text-[28px] font-bold ${unit.isPopular ? 'text-[#C59A3F]' : 'text-[#006860]'}`} style={{ fontFamily: F_SANS }}>
                   {unit.price}
                 </p>
               </div>
@@ -133,10 +133,8 @@ const Pricing = ({ setIsOpen }) => {
               {/* Button */}
               <button
                 onClick={() => setIsOpen(true)}
-                className={`w-full max-w-[220px] py-3.5 rounded-md text-[13px] font-bold tracking-wider uppercase transition-all duration-300 shadow-md hover:shadow-lg border-2 cursor-pointer
-                  ${unit.isPopular 
-                    ? 'bg-[#C59A3F] border-[#C59A3F] text-white hover:bg-[#A57C2B]' 
-                    : 'bg-[#0E4429] border-[#0E4429] text-white hover:bg-[#082E1B] hover:border-[#082E1B]'}`}
+                className="w-full max-w-[220px] py-3.5 rounded-md text-[13px] font-bold tracking-wider uppercase transition-all duration-300 shadow-md hover:shadow-lg border-2 cursor-pointer bg-[#006860] border-[#006860] text-white hover:bg-[#C59A3F] hover:border-[#C59A3F]"
+                style={{ cursor: 'pointer' }}
               >
                 {unit.btnText}
               </button>

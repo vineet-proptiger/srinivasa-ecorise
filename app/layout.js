@@ -110,6 +110,44 @@ export default function RootLayout({ children }) {
             })
           }}
         />
+        <style dangerouslySetInnerHTML={{ __html: `
+          button,
+          button:hover,
+          button *,
+          button *:hover,
+          [type="button"],
+          [type="button"]:hover,
+          [type="submit"],
+          [type="submit"]:hover,
+          [type="reset"],
+          [type="reset"]:hover,
+          [role="button"],
+          [role="button"]:hover,
+          .btn,
+          .btn:hover,
+          .btn *,
+          .btn *:hover,
+          .btn-gold,
+          .btn-gold:hover,
+          .btn-gold-outline,
+          .btn-gold-outline:hover,
+          .btn-primary,
+          .btn-primary:hover,
+          .btn-brand,
+          .btn-brand:hover,
+          .theme_btn1,
+          .theme_btn1:hover,
+          .btn-floating-tab,
+          .btn-floating-tab:hover,
+          a,
+          a:hover,
+          a *,
+          a *:hover,
+          .cursor-pointer,
+          .cursor-pointer:hover {
+            cursor: pointer !important;
+          }
+        `}} />
       </head>
       <body className={`${openSans.variable} ${montserrat.variable} ${cormorant.variable} ${nephilm.variable} ${poppins.variable} font-sans text-dark antialiased`}>
         <Script id="gtag-init" strategy="beforeInteractive">

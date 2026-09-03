@@ -108,9 +108,9 @@ const Highlights = () => {
         </h2>
         {/* Decorative Line */}
         <div className="flex items-center justify-center mt-3 mb-8" data-aos="fade-up" data-aos-duration="1000">
-          <div className="w-16 h-[1px] bg-[#0E4429]"></div>
-          <div className="w-2 h-2 rounded-full bg-[#0E4429] mx-3"></div>
-          <div className="w-16 h-[1px] bg-[#0E4429]"></div>
+          <div className="w-16 h-[1px] bg-[#006860]"></div>
+          <div className="w-2 h-2 rounded-full bg-[#006860] mx-3"></div>
+          <div className="w-16 h-[1px] bg-[#006860]"></div>
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 border border-white/20 rounded-[20px] mt-10" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" style={{ position: 'relative' }}>

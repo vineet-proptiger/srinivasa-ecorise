@@ -383,8 +383,8 @@ const Hero = ({ setIsOpen }) => {
               font-weight: 800 !important;
             }
             .hero-cta-row .hero-btn-one {
-              color: #0E4429 !important;
-              border-color: #0E4429 !important;
+              color: #006860 !important;
+              border-color: #006860 !important;
               background: transparent !important;
             }
             .hero-rera {
@@ -520,7 +520,7 @@ const Hero = ({ setIsOpen }) => {
           <button
             onClick={() => setIsOpen(true)}
             className="btn-brand hero-btn-pill"
-            style={{ fontSize: '12px', padding: '11px 22px', textTransform: 'uppercase' }}
+            style={{ fontSize: '12px', padding: '11px 22px', textTransform: 'uppercase', cursor: 'pointer' }}
           >
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
               <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>

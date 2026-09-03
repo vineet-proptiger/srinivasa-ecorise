@@ -45,22 +45,24 @@ const MasterPlan = ({ setIsOpen }) => {
           </h2>
           {/* Decorative Line */}
           <div className="flex items-center justify-center mt-2 mb-8">
-            <div className="w-16 h-[1px] bg-[#0E4429]"></div>
-            <div className="w-2 h-2 rounded-full bg-[#0E4429] mx-3"></div>
-            <div className="w-16 h-[1px] bg-[#0E4429]"></div>
+            <div className="w-16 h-[1px] bg-[#006860]"></div>
+            <div className="w-2 h-2 rounded-full bg-[#006860] mx-3"></div>
+            <div className="w-16 h-[1px] bg-[#006860]"></div>
           </div>
 
           {/* Tabs */}
           <div className="flex justify-center items-center">
             <button 
               onClick={() => setActiveTab('master')}
-              className={`px-8 py-3 text-[17px] font-medium transition-all cursor-pointer border border-[#0E4429] ${activeTab === 'master' ? 'bg-[#0E4429] text-white' : 'bg-transparent text-[#0E4429]'}`}
+              style={{ cursor: 'pointer' }}
+              className={`px-8 py-3 text-[17px] font-medium transition-all cursor-pointer border border-[#006860] ${activeTab === 'master' ? 'bg-[#006860] text-white' : 'bg-transparent text-[#006860]'}`}
             >
               Master Plan
             </button>
             <button 
               onClick={() => setActiveTab('floor')}
-              className={`px-8 py-3 text-[17px] font-medium transition-all cursor-pointer border border-l-0 border-[#0E4429] ${activeTab === 'floor' ? 'bg-[#0E4429] text-white' : 'bg-transparent text-[#0E4429]'}`}
+              style={{ cursor: 'pointer' }}
+              className={`px-8 py-3 text-[17px] font-medium transition-all cursor-pointer border border-l-0 border-[#006860] ${activeTab === 'floor' ? 'bg-[#006860] text-white' : 'bg-transparent text-[#006860]'}`}
             >
               Floor Plan
             </button>
@@ -78,7 +80,7 @@ const MasterPlan = ({ setIsOpen }) => {
                   className="w-full h-auto mx-auto filter blur-[6px] group-hover:blur-[3px] transition-all duration-300" 
                 />
                 <div className="absolute inset-0 flex items-center justify-center bg-white/20">
-                  <span className="bg-[#0E4429] text-white px-7 py-4 text-[14px] sm:text-[15px] leading-snug font-semibold uppercase tracking-wider text-center shadow-md">
+                  <span className="bg-[#006860] text-white px-7 py-4 text-[14px] sm:text-[15px] leading-snug font-semibold uppercase tracking-wider text-center shadow-md">
                     Download<br/>Master Plan
                   </span>
                 </div>
@@ -97,14 +99,14 @@ const MasterPlan = ({ setIsOpen }) => {
                       className="w-full h-full object-contain filter blur-[6px] group-hover:blur-[3px] transition-all duration-300" 
                     />
                     <div className="absolute inset-0 flex items-center justify-center bg-white/20">
-                      <span className="bg-[#0E4429] text-white px-5 py-3 text-[13px] leading-snug font-semibold uppercase tracking-wider text-center">
+                      <span className="bg-[#006860] text-white px-5 py-3 text-[13px] leading-snug font-semibold uppercase tracking-wider text-center">
                         Download<br/>Floor Plans
                       </span>
                     </div>
                   </a>
                   <div className="p-6 text-center border-t border-gray-100 bg-white">
-                    <h4 className="text-[22px] text-[#0E4429] font-semibold mb-4">{plan.label}</h4>
-                    <p className="text-[15px] text-gray-600"><span className="font-semibold text-gray-800">Super Built-up Area </span><br/><span className="text-[17px] font-bold text-[#0E4429] inline-block mt-1">{plan.details.superBuiltUp}</span></p>
+                    <h4 className="text-[22px] text-[#006860] font-semibold mb-4">{plan.label}</h4>
+                    <p className="text-[15px] text-gray-600"><span className="font-semibold text-gray-800">Super Built-up Area </span><br/><span className="text-[17px] font-bold text-[#006860] inline-block mt-1">{plan.details.superBuiltUp}</span></p>
                   </div>
                 </div>
               ))}
