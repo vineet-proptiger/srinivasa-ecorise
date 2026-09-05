@@ -9,7 +9,7 @@ const units = [
     type: "3 BHK",
     subtitle: "RESIDENCES",
     size: "2790 Sq. Ft.",
-    price: "₹ 7,099/Sq.Ft",
+    price: "₹ 7,499/Sq.Ft",
     btnText: "GET DETAILS",
     features: [
       "Unlock Pricing & Floor Plans",

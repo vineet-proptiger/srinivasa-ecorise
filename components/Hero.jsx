@@ -453,7 +453,7 @@ const Hero = ({ setIsOpen }) => {
             "Prime Development Spanning 5.24 Acres",
             "Located just 5 minutes from the ORR exit",
             "57,000 Sq.Ft. Grand Clubhouse",
-            // "Pre-Launch Pricing From ₹7,099/Sq.Ft."
+            // "Pre-Launch Pricing From ₹7,499/Sq.Ft."
           ].map((text, i) => (
           <div key={i} className="hero-bullet-item" style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--color-brand, #C59A3F)" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" style={{ flexShrink: 0, backgroundColor: '#fff', borderRadius: '50%', padding: '2px' }}>
@@ -495,7 +495,7 @@ const Hero = ({ setIsOpen }) => {
             border: '1px solid rgba(197, 154, 63, 0.55)',
             borderRadius: '30px'
           }}>
-            ₹ 7,099/Sq.Ft
+            ₹ 7,499/Sq.Ft
           </span>
         </p>
 
