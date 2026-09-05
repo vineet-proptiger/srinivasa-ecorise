@@ -43,22 +43,22 @@ const nephilm = localFont({
 
 export const metadata = {
   metadataBase: new URL('https://sreenivasaecorise.in'),
-  title: 'Srinivasa Ecorise | Luxury 3, 4 BHK Homes in Rajendra Nagar, Hyderabad',
-  description: "Srinivasa Ecorise — A thoughtfully planned 5.24-acre landmark development in Rajendra Nagar, Hyderabad by Sreenivasa Constructions. Luxury 3 BHK and 4 BHK apartments in iconic G+30 towers.",
+  title: 'Sreenivasa Sonthalia Ecorise | Luxury 3, 4 BHK Homes in Rajendra Nagar, Hyderabad',
+  description: "Sreenivasa Sonthalia Ecorise — A thoughtfully planned 5.24-acre landmark development in Rajendra Nagar, Hyderabad by Sreenivasa Constructions. Luxury 3 BHK and 4 BHK apartments in iconic G+30 towers.",
   alternates: {
     canonical: 'https://sreenivasaecorise.in/',
   },
   openGraph: {
-    title: 'Srinivasa Ecorise | Luxury Integrated Development in Rajendra Nagar',
-    description: "Discover luxury 3, 4 BHK apartments at Srinivasa Ecorise, an integrated 5.24-acre landmark development in Rajendra Nagar, Hyderabad.",
+    title: 'Sreenivasa Sonthalia Ecorise | Luxury Integrated Development in Rajendra Nagar',
+    description: "Discover luxury 3, 4 BHK apartments at Sreenivasa Sonthalia Ecorise, an integrated 5.24-acre landmark development in Rajendra Nagar, Hyderabad.",
     url: 'https://sreenivasaecorise.in/',
-    siteName: 'Srinivasa Ecorise',
+    siteName: 'Sreenivasa Sonthalia Ecorise',
     images: [
       {
         url: '/images/hero/banner.webp',
         width: 1200,
         height: 630,
-        alt: 'Srinivasa Ecorise Rajendra Nagar Hyderabad',
+        alt: 'Sreenivasa Sonthalia Ecorise Rajendra Nagar Hyderabad',
       },
     ],
     locale: 'en_IN',
@@ -66,7 +66,7 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Srinivasa Ecorise | Luxury 3, 4 BHK Homes in Rajendra Nagar',
+    title: 'Sreenivasa Sonthalia Ecorise | Luxury 3, 4 BHK Homes in Rajendra Nagar',
     description: "A thoughtfully planned 5.24-acre landmark development in Rajendra Nagar, Hyderabad by Sreenivasa Constructions.",
     images: ['/images/hero/banner.webp'],
   },
@@ -89,11 +89,11 @@ export default function RootLayout({ children }) {
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "RealEstateAgent",
-              "name": "Srinivasa Ecorise Rajendra Nagar",
+              "name": "Sreenivasa Sonthalia Ecorise Rajendra Nagar",
               "url": "https://sreenivasaecorise.in/",
               "logo": "https://sreenivasaecorise.in/images/logo/Logo.webp",
               "image": "https://sreenivasaecorise.in/images/hero/banner.webp",
-              "description": "Srinivasa Ecorise, Hyderabad's premier luxury integrated development in Rajendra Nagar offering 3, 4 BHK luxury residences.",
+              "description": "Sreenivasa Sonthalia Ecorise, Hyderabad's premier luxury integrated development in Rajendra Nagar offering 3, 4 BHK luxury residences.",
               "address": {
                 "@type": "PostalAddress",
                 "streetAddress": "Rajendra Nagar",

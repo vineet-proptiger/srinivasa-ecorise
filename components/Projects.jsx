@@ -160,13 +160,13 @@ const Projects = ({ setIsOpen }) => {
           </p> */}
         </div>
 
-        {/* Project 1: Srinivasa Ecorise Residential */}
+        {/* Project 1: Sreenivasa Ecorise Residential */}
         <div className="project-card-wrap flex flex-col lg:flex-row" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
           {/* Image Side (Left on Desktop) */}
           <div className="w-full lg:w-1/2 project-img-container">
             <Image
               src="/projects/daffodils-tower.jpg"
-              alt="Srinivasa Ecorise - Residential Towers"
+              alt="Sreenivasa Ecorise - Residential Towers"
               width={700}
               height={550}
               className="project-img"
@@ -177,9 +177,9 @@ const Projects = ({ setIsOpen }) => {
 
           {/* Text Side (Right on Desktop) */}
           <div className="w-full lg:w-1/2 project-content-box">
-            <h3 className="project-title">SRINIVASA ECORISE - RESIDENTIAL TOWERS</h3>
+            <h3 className="project-title">Sreenivasa ECORISE - RESIDENTIAL TOWERS</h3>
             <p className="project-desc">
-              The residential phase of Srinivasa Ecorise in Rajendra Nagar, Hyderabad features 4 iconic G+30 towers offering luxury 3 BHK and 4 BHK residences. Designed for low-density exclusivity with breathtaking panoramic views and abundant natural light, each apartment is crafted with top-tier specifications. Residents enjoy seamless access to a magnificently engineered clubhouse, landscaped community gardens, swimming pool, high-speed elevators, and premier sport facilities.
+              The residential phase of Sreenivasa Ecorise in Rajendra Nagar, Hyderabad features 4 iconic G+30 towers offering luxury 3 BHK and 4 BHK residences. Designed for low-density exclusivity with breathtaking panoramic views and abundant natural light, each apartment is crafted with top-tier specifications. Residents enjoy seamless access to a magnificently engineered clubhouse, landscaped community gardens, swimming pool, high-speed elevators, and premier sport facilities.
             </p>
             <button
               className="explore-btn"
@@ -190,13 +190,13 @@ const Projects = ({ setIsOpen }) => {
           </div>
         </div>
 
-        {/* Project 2: Srinivasa Ecorise Commercial & Taj Hotel */}
+        {/* Project 2: Sreenivasa Ecorise Commercial & Taj Hotel */}
         <div className="project-card-wrap flex flex-col lg:flex-row-reverse mb-0" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
           {/* Image Side (Right on Desktop) */}
           <div className="w-full lg:w-1/2 project-img-container">
             <Image
               src="/images/gallery/g4.webp"
-              alt="Srinivasa Ecorise - 4 Iconic Towers"
+              alt="Sreenivasa Ecorise - 4 Iconic Towers"
               width={700}
               height={550}
               className="project-img"
@@ -207,9 +207,9 @@ const Projects = ({ setIsOpen }) => {
 
           {/* Text Side (Left on Desktop) */}
           <div className="w-full lg:w-1/2 project-content-box">
-            <h3 className="project-title">SRINIVASA ECORISE - COMMERCIAL &amp; TAJ HOTEL</h3>
+            <h3 className="project-title">Sreenivasa ECORISE - COMMERCIAL &amp; TAJ HOTEL</h3>
             <p className="project-desc">
-              Complementing the luxury residential towers is the landmark commercial and hospitality phase of Srinivasa Ecorise, featuring 8 state-of-the-art towers with expansive office spaces and the ultra-luxurious Taj Hotel. Designed as a BEE 4-star approved development, it elevates workplace and hospitality standards with grand entrance lobbies, ample multi-level parking, world-class retail centers, and effortless connectivity to Rajendra Nagar Station and major IT hubs.
+              Complementing the luxury residential towers is the landmark commercial and hospitality phase of Sreenivasa Ecorise, featuring 8 state-of-the-art towers with expansive office spaces and the ultra-luxurious Taj Hotel. Designed as a BEE 4-star approved development, it elevates workplace and hospitality standards with grand entrance lobbies, ample multi-level parking, world-class retail centers, and effortless connectivity to Rajendra Nagar Station and major IT hubs.
             </p>
             <button
               className="explore-btn"

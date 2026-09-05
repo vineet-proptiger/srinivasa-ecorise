@@ -542,7 +542,7 @@ const Navbar = ({ setIsOpen }) => {
             
             <li className="navbar-logo">
               <a href="#" className="navbar-brand">
-                <img src={logoImages.tarc} alt="Srinivasa Ecorise" className="nav-logo" />
+                <img src={logoImages.tarc} alt="Sreenivasa Ecorise" className="nav-logo" />
               </a>
             </li>
             

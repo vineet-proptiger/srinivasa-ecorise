@@ -405,7 +405,7 @@ const Hero = ({ setIsOpen }) => {
             <div className="desktop-img-wrapper w-full h-full">
               <Image
                 src={slide.img}
-                alt={`Srinivasa Ecorise Banner ${index + 1}`}
+                alt={`Sreenivasa Ecorise Banner ${index + 1}`}
                 width={1920}
                 height={800}
                 className="hero-image desktop-hero-image"
@@ -417,7 +417,7 @@ const Hero = ({ setIsOpen }) => {
               <div className="mobile-img-wrapper w-full h-full">
                 <Image
                   src={slide.mobileImg}
-                  alt={`Srinivasa Ecorise Mobile Banner ${index + 1}`}
+                  alt={`Sreenivasa Ecorise Mobile Banner ${index + 1}`}
                   width={768}
                   height={900}
                   className="hero-image mobile-hero-image"
@@ -438,7 +438,7 @@ const Hero = ({ setIsOpen }) => {
 
         {/* Main Heading */}
         <h1 className="hero-title">
-         SONTHALIA ECORISE BY SREENIVASA
+         SREENIVASA SONTHALIA ECORISE
         </h1>
 
         {/* Subtitle */}
@@ -453,7 +453,7 @@ const Hero = ({ setIsOpen }) => {
             "Prime Development Spanning 5.24 Acres",
             "Located just 5 minutes from the ORR exit",
             "57,000 Sq.Ft. Grand Clubhouse",
-            "Pre-Launch Pricing From ₹7,099/Sq.Ft."
+            // "Pre-Launch Pricing From ₹7,099/Sq.Ft."
           ].map((text, i) => (
           <div key={i} className="hero-bullet-item" style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--color-brand, #C59A3F)" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" style={{ flexShrink: 0, backgroundColor: '#fff', borderRadius: '50%', padding: '2px' }}>
@@ -495,7 +495,7 @@ const Hero = ({ setIsOpen }) => {
             border: '1px solid rgba(197, 154, 63, 0.55)',
             borderRadius: '30px'
           }}>
-            ₹ 2.09 Cr*
+            ₹ 7,099/Sq.Ft
           </span>
         </p>
 

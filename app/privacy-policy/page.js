@@ -33,7 +33,7 @@ export default function PrivacyPolicy() {
                 .privacy-logo { height: 40px; transform-origin: left center; }
               }
             `}</style>
-            <img src={logoImages.tarc} alt="Srinivasa Ecorise" className="privacy-logo" />
+            <img src={logoImages.tarc} alt="Sreenivasa Sonthalia Ecorise" className="privacy-logo" />
           </Link>
           <Link
             href="/"
@@ -309,7 +309,7 @@ export default function PrivacyPolicy() {
       {/* ── Footer (mini) ── */}
       <footer style={{ background: 'var(--color-dark)', color: '#fff', padding: '24px', textAlign: 'center', borderTop: '1px solid #333' }}>
         <p style={{ fontSize: '13px', color: '#888', fontFamily: 'var(--font-sans)' }}>
-          &copy; 2026 Srinivasa Ecorise. All rights reserved |{' '}
+          &copy; 2026 Sreenivasa Ecorise. All rights reserved |{' '}
           <Link href="/" style={{ color: 'var(--color-gold)', textDecoration: 'none' }}>Back to Home</Link>
         </p>
       </footer>

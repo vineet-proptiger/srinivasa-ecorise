@@ -137,7 +137,7 @@ const Overview = ({ setIsOpen }) => {
         {/* Left Side: Text Content */}
         <div className="w-full lg:w-7/12 pr-0 lg:pr-8">
           <div className="inner-section" data-aos="fade-up" data-aos-duration="1000">
-            <h2 className="text-[22px] sm:text-[28px] md:text-[36px] font-semibold leading-tight uppercase tracking-wider text-gray-900" data-aos="fade-up" data-aos-duration="1000" style={{ fontFamily: "var(--font-jost), Montserrat, sans-serif", marginBottom: '6px' }}>Srinivasa Ecorise</h2>
+            <h2 className="text-[22px] sm:text-[28px] md:text-[36px] font-semibold leading-tight uppercase tracking-wider text-gray-900" data-aos="fade-up" data-aos-duration="1000" style={{ fontFamily: "var(--font-jost), Montserrat, sans-serif", marginBottom: '6px' }}>Sreenivasa Ecorise</h2>
             {/* Decorative Line */}
             <div className="flex items-center justify-start mt-1 mb-3" data-aos="fade-up" data-aos-duration="1000">
               <div className="w-16 h-[1px] bg-[#006860]"></div>
@@ -152,11 +152,11 @@ const Overview = ({ setIsOpen }) => {
               </p>
               
               <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="120" style={{ fontSize: '16px', fontFamily: '"Poppins", sans-serif', color: '#333', textAlign: 'justify', marginBottom: '8px', lineHeight: '1.8' }}>
-                Strategically located in the heart of Rajendranagar, Srinivasa Ecorise keeps you seamlessly connected to the Financial District, the Airport corridor, and ORR, while offering a calm, nature-rich setting away from the city's rush. For homebuyers considering new flats in Rajendranagar, it brings together connectivity, comfort, and a balanced lifestyle close to Hyderabad's thriving business hubs.
+                Strategically located in the heart of Rajendranagar, Sreenivasa Ecorise keeps you seamlessly connected to the Financial District, the Airport corridor, and ORR, while offering a calm, nature-rich setting away from the city's rush. For homebuyers considering new flats in Rajendranagar, it brings together connectivity, comfort, and a balanced lifestyle close to Hyderabad's thriving business hubs.
               </p>
               
               <p className="boldp" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="160" style={{ fontSize: '16px', fontFamily: '"Poppins", sans-serif', fontWeight: '700', color: '#333', marginBottom: '16px' }}>
-                Srinivasa Ecorise Rajendra Nagar — Register Your Interest Today to access exclusive offers and priority unit selection.
+                Sreenivasa Ecorise Rajendra Nagar — Register Your Interest Today to access exclusive offers and priority unit selection.
               </p>
             </div>
 
@@ -204,7 +204,7 @@ const Overview = ({ setIsOpen }) => {
           <div className="image_caption_wrap relative overflow-hidden rounded-xl shadow-lg border border-[#C59A3F]/20 bg-white">
             <Image
               src={overviewImage}
-              alt="Srinivasa Ecorise - Tower Elevation"
+              alt="Sreenivasa Ecorise - Tower Elevation"
               width={1500}
               height={1364}
               className="w-full h-auto object-cover rounded-xl transition-transform duration-700 hover:scale-105"
